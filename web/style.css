@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-default: #cfd2da;
+  --color-hover: white;
+}
+
+body {
+  visibility: hidden;
+  user-select: none;
+  white-space: nowrap;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
+}
+
+#eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: #c666645b;
+  border-radius: 50%;
+  padding: 6px;
+  outline: 2px solid #c66664;
+  outline-offset: 4px;
+  box-shadow: 0 0 10px #c66664;
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 0 10px #c66664;
+  align-items: center;
+}
+
+#eye i {
+  font-size: 15px;
+  color: #c66664;
+}
+
+.eye-hover {
+  color: #c66664 !important;
+  text-shadow: 0 0 10px #c66664;
+}
+
+#eye.eye-hover {
+  box-shadow: 0 0 0 2px #5d452bb6,
+    0 0 15px #c66664,
+    0 0 25px rgba(90, 224, 13, 0.5);
+}
+
+#options-wrapper {
+  position: absolute;
+  top: 49.8%;
+  left: calc(50% + 35px);
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+}
+
+.option-container {
+  color: #e3565b;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Nunito";
+  background: #c66664a5;
+  font-size: 11pt;
+  line-height: 18pt;
+  vertical-align: middle;
+  margin: 0;
+  transition: all 200ms ease-out;
+  transform-origin: left top;
+  height: 20pt;
+  min-width: 100pt;
+  width: max-content;
+  background: #c666645b;
+  max-width: 200pt;
+  top: 0;
+  position: relative;
+  border-radius: 4px;
+  padding: 4px 8px;
+  text-shadow: 0 0 10px #e3565b;
+  margin-left: 8px;
+  position: relative;
+}
+
+.option-container::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: #c666645b;
+  border-radius: 2px;
+  transition: all 200ms ease-out;
+}
+
+.option-container:hover::before {
+  background: #c66664;
+  box-shadow: 0 0 5px #e3565b,
+              0 0 10px #e3565b,
+              0 0 15px #e3565b;
+}
+
+.option-container:hover {
+  transform-origin: left top;
+  margin-left: 8pt;
+  text-shadow: 0 0 10px #e3565b;
+}
+
+.option-icon {
+  font-size: 12pt;
+  line-height: 22pt;
+  width: 14pt;
+  margin-right: 8pt;
+  color: #e3565b;
+}
+
+.option-label {
+  font-weight: 500;
+}
