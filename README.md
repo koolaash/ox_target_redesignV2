@@ -28,3 +28,7 @@ https://github.com/communityox/ox_target/releases/latest/download/ox_target.zip
 - Partial compatibility for qtarget (the thing qb-target is based on, I made the original idiots).
 - Registering options no longer overrides existing options.
 - Groups and items checking for supported frameworks.
+
+
+# Preview
+- https://gyazo.com/de9630625d154c164f2e86bf34d696ff
