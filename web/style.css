@@ -29,32 +29,32 @@ p {
   transform: translate(-50%, -50%);
   width: 16px;
   height: 16px;
-  background: #c666645b;
+  background: #fb1e1e95;
   border-radius: 50%;
   padding: 6px;
-  outline: 2px solid #c66664;
+  outline: 2px solid #fb1e1e;
   outline-offset: 4px;
-  box-shadow: 0 0 10px #c66664;
+  box-shadow: 0 0 10px #fb1e1e;
   display: flex;
   justify-content: center;
-  text-shadow: 0 0 10px #c66664;
+  text-shadow: 0 0 10px #fb1e1e;
   align-items: center;
 }
 
 #eye i {
   font-size: 15px;
-  color: #c66664;
+  color: #fb1e1e;
 }
 
 .eye-hover {
-  color: #c66664 !important;
-  text-shadow: 0 0 10px #c66664;
+  color: #fb1e1e !important;
+  text-shadow: 0 0 10px #fb1e1e;
 }
 
 #eye.eye-hover {
-  box-shadow: 0 0 0 2px #5d452bb6,
-    0 0 15px #c66664,
-    0 0 25px rgba(90, 224, 13, 0.5);
+  box-shadow: 0 0 0 2px #8b1515b6,
+    0 0 15px #fb1e1e,
+    0 0 25px rgba(251, 30, 30, 0.6);
 }
 
 #options-wrapper {
@@ -67,13 +67,12 @@ p {
 }
 
 .option-container {
-  color: #e3565b;
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   font-family: "Nunito";
-  background: #c66664a5;
   font-size: 11pt;
   line-height: 18pt;
   vertical-align: middle;
@@ -83,13 +82,13 @@ p {
   height: 20pt;
   min-width: 100pt;
   width: max-content;
-  background: #c666645b;
+  background: #fb1e1e95;
   max-width: 200pt;
   top: 0;
   position: relative;
   border-radius: 4px;
   padding: 4px 8px;
-  text-shadow: 0 0 10px #e3565b;
+  text-shadow: 0 0 10px #ff3939;
   margin-left: 8px;
   position: relative;
 }
@@ -101,22 +100,22 @@ p {
   top: 0;
   height: 100%;
   width: 3px;
-  background: #c666645b;
+  background: #fb1e1e95;
   border-radius: 2px;
   transition: all 200ms ease-out;
 }
 
 .option-container:hover::before {
-  background: #c66664;
-  box-shadow: 0 0 5px #e3565b,
-              0 0 10px #e3565b,
-              0 0 15px #e3565b;
+  background: #fb1e1e;
+  box-shadow: 0 0 5px #ff3939,
+              0 0 10px #ff3939,
+              0 0 15px #ff3939;
 }
 
 .option-container:hover {
   transform-origin: left top;
   margin-left: 8pt;
-  text-shadow: 0 0 10px #e3565b;
+  text-shadow: 0 0 10px #ff3939;
 }
 
 .option-icon {
@@ -124,7 +123,7 @@ p {
   line-height: 22pt;
   width: 14pt;
   margin-right: 8pt;
-  color: #e3565b;
+  color: white;
 }
 
 .option-label {
